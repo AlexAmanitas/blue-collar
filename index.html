@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Oneflow</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap" rel="stylesheet" />
@@ -12,8 +12,10 @@
 	</head>
 	<body>
 		<header>
-			<div class="container">
-				<svg width="140" height="31"><use href="./images/sprite.svg#icon-logo"></use></svg>
+			<div class="header">
+				<a href="" class="logo">
+					<svg class="header__logo" width="140" height="31"><use href="./images/sprite.svg#icon-logo"></use></svg>
+				</a>
 				<nav class="header__nav">
 					<ul class="header__menu">
 						<li class="header__item"><a href="" class="header__link">Why Oneflow?</a></li>
@@ -22,10 +24,26 @@
 						<li class="header__item"><a href="" class="header__link">About</a></li>
 						<li class="header__item"><a href="" class="header__link">Blog</a></li>
 					</ul>
-					<button class="small-btn header__btn header__btn--demo"></button>
-					<button class="small-btn header__btn header__btn--login"></button>
 				</nav>
+				<button class="header__btn header__btn--demo">Get a demo</button>
+				<button class="header__btn header__btn--login">Log in</button>
+
+				<a class="header__earth" href="">
+					<svg class="header__icon" width="20" height="20"><use href="./images/sprite.svg#icon-earth"></use></svg>
+				</a>
 			</div>
 		</header>
+
+		<section class="hero">
+			<div class="container">
+				<h1 class="hero__title">Work wonders</h1>
+				<p class="hero__text">Be more effective with smart contracts that make work faster, and life easier.</p>
+				<a href="" class="hero__link">About</a>
+				<div class="hero__buttons">
+					<button type="button" class="hero__btn">Get Oneflow free</button>
+					<button type="button" class="hero__btn">Take a tour</button>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
