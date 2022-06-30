@@ -5,6 +5,8 @@
 	padding: 216px 0 296px;
 	background-image: url(../../images/background-1@2x.jpg);
 	background-size: 1440px 850px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .hero__title {
@@ -16,6 +18,8 @@
 }
 
 .hero__text {
+	width: 491px;
+	margin-top: 31px;
 	font-family: "Work Sans";
 	font-size: 24px;
 	line-height: 1.33;
@@ -24,11 +28,23 @@
 }
 
 .hero__link {
+	margin-left: 510px;
+
+	font-family: "Work Sans";
+	font-size: 16px;
+	line-height: 1.25;
+	color: #000000;
 }
 
 .hero__buttons {
+	margin-top: 25px;
 }
 
 .hero__btn {
+	&:last-child {
+		margin-left: 16px;
+		@include big-btn($font-color, white);
+	}
+
 	@include big-btn;
 }
