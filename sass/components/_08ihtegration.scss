@@ -1,0 +1,107 @@
+.integration {
+	padding: 150px 0 70px;
+}
+
+.integration__cover {
+	display: flex;
+}
+
+.integration__wrap {
+	margin-top: 200px;
+}
+
+.integration__title {
+	font-family: "Roboto";
+	font-size: 72px;
+	line-height: 1;
+	letter-spacing: 0.4px;
+}
+
+.integration__text {
+	width: 400px;
+	margin-top: 30px;
+	font-family: "Work Sans";
+	font-size: 21px;
+	line-height: 1.33;
+}
+
+.integration__btn {
+	margin-top: 19px;
+	@include big-btn;
+}
+
+.grid {
+	width: 564px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(8, 1fr);
+	grid-column-gap: 24px;
+	grid-row-gap: 24px;
+}
+
+.grid__box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid__box-1 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 2 / 1 / 4 / 3;
+}
+.grid__box-2 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 4 / 1 / 6 / 3;
+}
+.grid__box-3 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 6 / 1 / 8 / 3;
+}
+.grid__box-4 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 1 / 3 / 3 / 5;
+}
+.grid__box-5 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 3 / 3 / 5 / 5;
+}
+.grid__box-6 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 5 / 3 / 7 / 5;
+}
+.grid__box-7 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 7 / 3 / 9 / 5;
+}
+.grid__box-8 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 2 / 5 / 4 / 7;
+}
+.grid__box-9 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 4 / 5 / 6 / 7;
+}
+.grid__box-10 {
+	width: 172px;
+	height: 172px;
+
+	grid-area: 6 / 5 / 8 / 7;
+}

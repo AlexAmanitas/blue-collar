@@ -5,6 +5,10 @@ $light-font-color: #f2dce4;
 $footer-font-color: #99b0b7;
 $second-background-color: #346170;
 
+body {
+	color: $font-color;
+}
+
 .container {
 	margin-left: auto;
 	margin-right: auto;

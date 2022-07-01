@@ -1,0 +1,35 @@
+.believe {
+	height: 850px;
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 300px 0;
+	background-image: url(../../images/background-4@2x.jpg);
+	background-size: 1440px 850px;
+}
+
+.believe__title {
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 73px;
+	line-height: 1.07;
+	letter-spacing: 2px;
+	color: $light-font-color;
+}
+
+.believe__text {
+	width: 470px;
+	margin-top: 32px;
+
+	font-family: "Work Sans";
+	font-size: 26px;
+	line-height: 1.23;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+}
+
+.believe__btn {
+	margin-top: 25px;
+
+	@include small-btn;
+}
