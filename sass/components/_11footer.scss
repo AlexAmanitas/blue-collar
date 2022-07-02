@@ -1,0 +1,162 @@
+.footer {
+	padding: 64px 0;
+	background-color: $background-color;
+}
+
+.footer__head {
+	display: flex;
+	height: 295px;
+	border-bottom: 1px solid #99b0b7;
+}
+
+.footer__logo {
+	fill: #99b0b7;
+}
+
+.footer__address {
+	margin-top: 67px;
+	margin-right: 190px;
+
+	font-family: "Work Sans";
+	font-size: 14px;
+	line-height: 1.43;
+	color: #ffffff;
+}
+
+.why__list {
+	margin-right: 102px;
+
+	font-family: "Work Sans";
+	font-size: 16px;
+	line-height: 1.25;
+	color: #ffffff;
+}
+
+.why__item {
+	margin-top: 13px;
+}
+
+.why__link {
+	font-family: "Work Sans";
+	font-size: 16px;
+	line-height: 1.25;
+	color: #99b0b7;
+}
+
+.learn__list {
+	margin-right: 102px;
+
+	font-family: "Work Sans";
+	font-size: 16px;
+	line-height: 1.25;
+	color: #ffffff;
+}
+
+.learn__item {
+	margin-top: 13px;
+}
+
+.learn__link {
+	font-family: "Work Sans";
+	font-size: 16px;
+	line-height: 1.25;
+	color: #99b0b7;
+}
+
+.security__list {
+	margin-right: 102px;
+
+	font-family: "Work Sans";
+	font-size: 16px;
+	line-height: 1.25;
+	color: #ffffff;
+}
+.security__item {
+	margin-top: 13px;
+}
+
+.security__link {
+	font-family: "Work Sans";
+	font-size: 16px;
+	line-height: 1.25;
+	color: #99b0b7;
+}
+
+.more__list {
+	font-family: "Work Sans";
+	font-size: 16px;
+	line-height: 1.25;
+	color: #ffffff;
+}
+
+.more__item {
+	margin-top: 13px;
+}
+
+.more__link {
+	font-family: "Work Sans";
+	font-size: 16px;
+	line-height: 1.25;
+	color: #ffffff;
+}
+
+.footer__body {
+	height: 209px;
+	padding: 48px 0 80px;
+	border-bottom: 1px solid #99b0b7;
+}
+
+.body__title {
+	font-family: "Roboto";
+	font-size: 23px;
+	line-height: 1.4;
+	letter-spacing: 0.4px;
+	color: #ffffff;
+}
+
+.body__wrap {
+	display: flex;
+}
+
+.body__text {
+	width: 368px;
+	margin-top: 11px;
+
+	font-family: "Work Sans";
+	font-size: 14px;
+	line-height: 1.43;
+	color: #ffffff;
+}
+
+.body__btn {
+	margin-left: 48px;
+	@include small-btn;
+}
+
+.footer__tail {
+	padding: 17px 0 73px;
+}
+
+.tail__list {
+	display: flex;
+}
+
+.tail__item {
+	&:nth-child(-n + 2) {
+		margin-right: 32px;
+	}
+	&:nth-child(3) {
+		margin-right: 16px;
+	}
+}
+
+.tail__link {
+	font-family: "Work Sans";
+	font-size: 14px;
+	line-height: 1.3;
+	color: #99b0b7;
+}
+
+.tail__logo {
+	fill: #99b0b7;
+}
