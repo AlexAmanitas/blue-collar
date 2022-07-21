@@ -448,6 +448,9 @@ header {
 }
 
 .hero__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 5px;
 }
 
@@ -462,6 +465,11 @@ header {
   border-radius: 4px;
   cursor: pointer;
   border: none;
+}
+
+.hero__btn:first-child {
+  width: 130px;
+  height: 50px;
 }
 
 .hero__btn:last-child {

@@ -39,10 +39,15 @@
 }
 
 .hero__buttons {
+	display: flex;
 	margin-top: 5px;
 }
 
 .hero__btn {
+	&:first-child {
+		width: 130px;
+		height: 50px;
+	}
 	&:last-child {
 		margin-left: 16px;
 		@include big-btn($font-color, white);
